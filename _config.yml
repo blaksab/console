@@ -1,15 +1,19 @@
-# Example Site settings
+header_pages:
+  - index.md
+  - about.md
+  - resources.md
 
-#google_analytics: UA-NNNNNNNN-N
-
-#header_pages:
-#  - index.md
-#  - about.md
+posts:
+  - _posts/2020-05-01-upgrading-ubuntu.md
+  - _posts/2020-11-11-ts-arima.md
+  - _posts/2020-07-11-Understanding-Generative-Adversarial-Networks.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+style: light # dark (default) or light
+listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
+
+theme: jekyll-theme-console
